@@ -1,0 +1,60 @@
+
+ 
+
+ django-admin.py startproject mysite
+
+
+
+ python manage.py migrate
+
+
+
+ python manage.py runserver 8080
+
+ 
+
+
+#Run python manage.py makemigrations to create migrations for those changes
+#Run python manage.py migrate to apply those changes to the database.
+python manage.py makemigrations polls
+
+
+python manage.py sqlmigrate polls 0001 #doesn’t actually run the migration on your database 
+
+python manage.py check #this checks for any problems in your project without making migrations or touching the database.
+
+python manage.py shell
+
+
+
+
+
+see sqlite: sqlite  command: .schema(show create tables) other commnad .help
+
+
+python manage.py createsuperuser #First we’ll need to create a user who can login to the admin site. Run the following command:
+
+
+
+
+#sublime text 2
+ctrl + shift + k
+
+
+
+#python find lib
+import sys
+print sys.path
+import django
+print django.__path__
+
+#get object if not then raise 404
+ get_list_or_404() function, which works just as get_object_or_404()
+
+
+ 
+
+
+
+
+
