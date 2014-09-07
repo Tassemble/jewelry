@@ -52,7 +52,15 @@ print django.__path__
  get_list_or_404() function, which works just as get_object_or_404()
 
 
- 
+
+
+ #test
+  python manage.py test polls
+
+
+
+ response.context['latest_question_list']
+
 
 
 
